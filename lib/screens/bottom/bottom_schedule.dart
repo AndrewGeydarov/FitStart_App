@@ -41,7 +41,6 @@ class _BottomSchedulePageState extends State<BottomSchedulePage> {
           ),
           const SizedBox(height: 16),
 
-          // Выбор дня
           SizedBox(
             height: 58,
             child: ListView.separated(

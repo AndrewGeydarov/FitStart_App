@@ -109,7 +109,7 @@ class SubscriptionPage extends StatelessWidget {
                   _InfoRow('Клуб', 'Казань FITSTART'),
                   _InfoRow('Дата подписания', '06.02.2026'),
                   _InfoRow('Дата активации', '06.02.2026'),
-                  _InfoRow('Вступительный платёж', '3 000 ₽', last: true),
+                  _InfoRow('Вступительный платёж', '3 000 ₽'),
                 ],
               ),
             ),

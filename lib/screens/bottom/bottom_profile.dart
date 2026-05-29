@@ -123,7 +123,6 @@ class BottomProfilePage extends StatelessWidget {
             ),
           ),
           const SizedBox(height: 16),
-
           Container(
             width: double.infinity,
             padding: const EdgeInsets.symmetric(horizontal: 16, vertical: 14),
@@ -163,7 +162,6 @@ class BottomProfilePage extends StatelessWidget {
             ),
           ),
           const SizedBox(height: 18),
-
           _menuItem(Icons.menu_book_outlined, 'Дневник тренировок'),
           const SizedBox(height: 12),
           _menuItem(Icons.bar_chart_rounded, 'Анализ состава тела'),
@@ -175,7 +173,6 @@ class BottomProfilePage extends StatelessWidget {
       ),
     );
   }
-
   Widget _menuItem(IconData icon, String label) {
     return Container(
       width: double.infinity,

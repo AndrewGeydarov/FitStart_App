@@ -12,7 +12,7 @@ class BottomGymPage extends StatefulWidget {
 }
 
 class _BottomGymPageState extends State<BottomGymPage> {
-  int tab = 0; // 0 — тренажёры, 1 — упражнения
+  int tab = 0;
 
   @override
   Widget build(BuildContext context) {

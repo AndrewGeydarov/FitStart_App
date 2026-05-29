@@ -3,7 +3,6 @@ import 'package:fitstart_app/theme.dart';
 import 'package:fitstart_app/screens/qr_pass.dart';
 import 'package:fitstart_app/screens/action_page.dart';
 
-/// 04 — Главная
 class BottomHomePage extends StatelessWidget {
   const BottomHomePage({super.key});
 
@@ -13,7 +12,6 @@ class BottomHomePage extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          // ───── Шапка с профилем ─────
           Container(
             decoration: const BoxDecoration(
               color: AppColors.primary,
@@ -73,7 +71,6 @@ class BottomHomePage extends StatelessWidget {
             child: Column(
               crossAxisAlignment: CrossAxisAlignment.start,
               children: [
-                // ───── Пропуск в клуб ─────
                 GestureDetector(
                   onTap: () {
                     Navigator.push(
@@ -118,7 +115,6 @@ class BottomHomePage extends StatelessWidget {
                 ),
                 const SizedBox(height: 18),
 
-                // ───── Карточка подписки ─────
                 Container(
                   width: double.infinity,
                   padding: const EdgeInsets.all(18),
@@ -166,7 +162,6 @@ class BottomHomePage extends StatelessWidget {
                 ),
                 const SizedBox(height: 16),
 
-                // ───── Баланс ─────
                 Container(
                   width: double.infinity,
                   padding:
@@ -208,7 +203,6 @@ class BottomHomePage extends StatelessWidget {
                 ),
                 const SizedBox(height: 22),
 
-                // ───── Расписание ─────
                 Row(
                   children: [
                     const Text('Расписание',
@@ -245,7 +239,6 @@ class BottomHomePage extends StatelessWidget {
                 ),
                 const SizedBox(height: 18),
 
-                // ───── Загруженность клуба ─────
                 const Text('Загруженность клуба',
                     style: TextStyle(
                         fontSize: 16,

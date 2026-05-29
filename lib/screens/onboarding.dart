@@ -35,23 +35,6 @@ class OnboardingPage extends StatelessWidget {
                   ),
                 ),
                 const Spacer(),
-                Row(
-                  mainAxisAlignment: MainAxisAlignment.center,
-                  children: [
-                    Container(
-                      width: 28,
-                      height: 6,
-                      decoration: BoxDecoration(
-                        color: Colors.white,
-                        borderRadius: BorderRadius.circular(3),
-                      ),
-                    ),
-                    const SizedBox(width: 6),
-                    _dot(),
-                    const SizedBox(width: 6),
-                    _dot(),
-                  ],
-                ),
                 SizedBox(height: size.height * 0.04),
                 const Align(
                   alignment: Alignment.centerLeft,
