@@ -116,6 +116,7 @@ class _AuthPageState extends State<AuthPage> {
     );
   }
 
+  // ignore: unused_element
   Widget _socialButton(String label) {
     return ElevatedButton(
       style: ElevatedButton.styleFrom(
